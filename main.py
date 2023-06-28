@@ -4,11 +4,8 @@ from scipy.constants import hbar, m_e, pi   #hbar en J.s
 
 
 # Ingreso de datos (ángulos)
-#onda = float(input("Ingresa la longitud de onda: "))
-#lista = [float(input("Ingresa los 8 ángulos: ")) for _ in range(1, 9)]
-
-onda=1.5406
-lista=[38.47,44.72,65.10,78.23,82.44,99.09,112.03,116.58]
+onda = float(input("Ingresa la longitud de onda (Angstrom): "))
+lista = [float(input("Ingresa los 8 ángulos: ")) for _ in range(1, 9)]
 
 # Cálculos intermedios
 listadostheta = [x / 2 for x in lista]
